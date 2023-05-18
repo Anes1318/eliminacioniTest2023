@@ -1,0 +1,61 @@
+.forma-container {
+    padding: 50px;
+    height: max-content;
+    border-radius: 20px;
+    max-width: max-content;
+    background-color: #db6d6e;
+}
+.center {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffeeee;
+}
+input {
+    border: none;
+
+    height: 30px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+textarea {
+    border: none;
+
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+
+input[type='text']:focus {
+    outline: 0.5px solid #331618;
+}
+textarea[type='text']:focus {
+    outline: 0.5px solid #331618;
+}
+select {
+    font-size: 1.5rem;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+.forma-button {
+    margin-top: 40px;
+    height: 40px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: #331618;
+    border-radius: 10px;
+    width: 100px;
+    font-size: 1.5rem;
+}
+.forma-button:hover {
+    cursor: pointer;
+}
+.forma-button:active {
+    transform: scale(1.02);
+}

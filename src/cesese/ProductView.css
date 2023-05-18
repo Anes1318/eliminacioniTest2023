@@ -1,0 +1,26 @@
+.productViewContainer {
+    background-color: #ffeeee;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.slika {
+    height: 40vh;
+    width: 45vw;
+    border-radius: 20px;
+}
+.rating {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: baseline;
+    margin-left: 5vw;
+}
+.star {
+    height: 1.5rem;
+    margin: 5px;
+}
+.title-rating {
+    display: flex;
+}
